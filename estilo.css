@@ -67,15 +67,25 @@
 
 
 .spinner-grow {
-  -webkit-animation: .75s linear infinite spinner-grow;
-  animation: .95s linear infinite spinner-grow !important;
+    -webkit-animation: .75s linear infinite spinner-grow;
+    animation: .95s linear infinite spinner-grow !important;
+}
+  
 
 
 
 /* -----------------------------------mediaquries */
 
 
-@media screen and  (min-width: 992px) {
+
+
+   
+    
+
+
+
+
+@media screen and (min-width: 992px){
     .logo{
         height: 10rem;
         width: 10rem;
