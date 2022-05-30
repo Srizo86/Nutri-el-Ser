@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito+Sans:wght@200;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <link rel="stylesheet" href="/estilo.css">
+    <title>NutrirelSer</title>
+</head>
+
+<body>
+    <nav class="navbar  navbar-expand-lg navbar-light color_pink py-3">
+        <div class=" color_nav container">
+            <a class="navbar_brand" href="/index.html">
+                <img src="/img/logofullcolor.png" class="logo" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text_color fw-bold" aria-current="page" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text_color fw-bold" href="/quienesSomos.html">Quien Soy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text_color fw-bold" href="/talleres.html">Talleres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text_color fw-bold" href="/comunidad.html">Comunidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text_color fw-bold" href="/tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text_color fw-bold" href="/planes.html">Planes</a>
+                    </li>
+                </ul>
+                <span class="navbar-text fst-italic">
+                    "La paz es un atributo que se encuentra en ti"
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5 py-5">
+        <div class="row my-5 py-5">
+            <div class="col-12 col-md-6">
+                <h1 class="text-center text_color title display-1 mb-5"> Bienvenidos</h1>
+                <p>Cada persona es un mundo por descubrir y la diversidad de herramientas hace posible adaptarse a las
+                    necesidades individuales.</p>
+                <p>En mi camino, me he convertido en una acompañante del alma donde la finalidad última es acompañar a
+                    otros a encontrar su propio camino hacia la felicidad y la sanación mediante el uso de diversas
+                    herramientas que permitan encontrar el balance armonioso entre la mente, el corazón y el alma.</p>
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="/img/imagen_inicio.jpg" class="w-100 border_img" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid color_pink">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4 py-5 my-3">
+                    <img src="/img/nombre-slogan.png" class="w-75 mx-auto d-block" alt="">
+                    <div class="d-flex justify-content-center">
+                        <a class="mx-2 fs-2 text_color" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="mx-2 fs-2 text_color" href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a class="mx-2 fs-2 text_color" href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a class="mx-2 fs-2 text_color" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="mx-2 fs-2 text_color" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 py-5 my-3">
+                    <div class="card shadow-lg rounded">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput" class="form-label">Correo Electronico</label>
+                                <input type="text" class="form-control" id="email" name="email"
+                                    placeholder="nombre@correo.com">
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="formGroupExampleInput" class="form-label">Nombres</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Nombres"
+                                        aria-label="First name" name="name">
+                                </div>
+                                <div class="col">
+                                    <label for="formGroupExampleInput" class="form-label">Apellidos</label>
+                                    <input type="text" class="form-control" id="last_name" placeholder="Apellidos"
+                                        aria-label="Last name" name="last_name">
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="talleres">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Talleres
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="comunidad" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Comunidad
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" onclick="enviandoDatos()"
+                                class="btn btn-primary mt-4 color_blue d-block">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 py-5 my-3">
+                    <h6 class="title text-center text_color fs-2">Contacto</h6>
+                    <a class="d-block text-center text-decoration-none mt-4 fs-5 text-secondary"
+                        href="tel:+573022770345"><i class="fa-solid fa-phone"></i> Teléfono: 302 277 03 45</a>
+                    <a class="d-block text-center text-decoration-none mt-4 fs-5 text-secondary" href="#"><i
+                            class="fa-solid fa-location-dot"></i> Dirección: Transversal 985</a>
+                    <a class="d-block text-center text-decoration-none mt-4 fs-5 text-secondary"
+                        href="mailto:info@nutrirelser.com"><i class="fa-solid fa-at"></i> Correo Electronico:
+                        info@nutrirelser.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="datos.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.title{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.logo{
+    height:7rem;
+    width:7rem;
+    position: relative;
+    z-index:10;
+}
+.color_pink{
+    background-color: #ead1ea;
+}
+.color_blue{
+    background-color: #008ea0;
+}
+.text_color{
+    color: #008ea0 !important;
+}
+.border_img{
+ border-radius: 35% 0% 35% 0%;
+ transition: 0.5s all;
+}
+.border_img:hover{
+ transform: scale(1.1);   
+}
+.img_border{
+    transition: 0.5s all;
+    border:10px solid #008ea0;
+}
+.img_border:hover{
+    transform: scale(1.1); 
+}
+.img_heigth{
+    height: 200px;
+    object-fit: cover
+}
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/baner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+.carrusel{
+    height: 85vh;
+}
+
+/*tienda*/
+.proximamente{
+    background-color: #fff;
+    height: 50rem;
+    width: 100%;
+    padding-left: 15%;
+}
+
+.texto_proximamente{
+    height: 50%;
+    width: 50%;
+    margin-top: 250px;
+}
+
+
+.spinner-grow {
+
+  -webkit-animation: .75s linear infinite spinner-grow;
+  animation: .95s linear infinite spinner-grow !important;
+}
+
+
+
+/* -----------------------------------mediaquries */
+
+
+@media screen and  (min-width: 992px) {
+    .logo{
+        height: 10rem;
+        width: 10rem;
+        margin-bottom: -65%;
+    }
+    .img_width{
+        width: 25% !important;
+    }
+
+
+}
