@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito+Sans:wght@200;400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
     <link rel="stylesheet" href="/estilo.css">
     <title>NutrirelSer</title>
 </head>
@@ -92,36 +93,37 @@
                         <div class="card-body">
                             <div class="mb-3">
                                 <label for="formGroupExampleInput" class="form-label">Correo Electronico</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                <input type="text" class="form-control" id="email"
                                     placeholder="nombre@correo.com">
                             </div>
                             <div class="row">
                                 <div class="col">
                                     <label for="formGroupExampleInput" class="form-label">Nombres</label>
-                                    <input type="text" class="form-control" placeholder="Nombres"
+                                    <input type="text" class="form-control" id="name" placeholder="Nombres"
                                         aria-label="First name">
                                 </div>
                                 <div class="col">
                                     <label for="formGroupExampleInput" class="form-label">Apellidos</label>
-                                    <input type="text" class="form-control" placeholder="Apellidos"
+                                    <input type="text" class="form-control" id="last_name" placeholder="Apellidos"
                                         aria-label="Last name">
                                 </div>
                                <div class="col-12 mt-3">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="" id="taleres">
                                     <label class="form-check-label" for="flexCheckDefault">
                                      Talleres
                                     </label>
                                   </div>
                                   <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                    <input class="form-check-input" type="checkbox" value="" id="comunidad" checked>
                                     <label class="form-check-label" for="flexCheckChecked">
                                       Comunidad
                                     </label>
                                   </div>
                                </div>
                             </div>
-                            <a href="#" class="btn btn-primary mt-4 color_blue d-block">Enviar</a>
+                            <button type="button" onclick="enviandoDatos()"
+                                class="btn btn-primary mt-4 color_blue d-block">Enviar</button>
                         </div>
                     </div>
                 </div>
@@ -139,7 +141,8 @@
         </div>
     </footer>
 
-
+    <script src="datos.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>

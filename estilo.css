@@ -51,7 +51,7 @@
     height: 85vh;
 }
 
-/*tienda*/
+/*--------------------------------------tienda*/
 .proximamente{
     background-color: #fff;
     height: 50rem;
@@ -62,12 +62,11 @@
 .texto_proximamente{
     height: 50%;
     width: 50%;
-    margin-top: 250px;
+    margin-top: 100px;
 }
 
 
 .spinner-grow {
-
   -webkit-animation: .75s linear infinite spinner-grow;
   animation: .95s linear infinite spinner-grow !important;
 }
@@ -91,6 +90,4 @@
         width: 50%;
         margin-top: 250px;
     }
-
-
 }
